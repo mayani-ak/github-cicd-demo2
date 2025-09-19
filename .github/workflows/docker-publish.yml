@@ -24,7 +24,7 @@ env:
 
 jobs:
   integration:
-    uses: ./github-cicd-demo/main/.github/workflows/python-app.yml
+    uses: mayani-ak/github-cicd-demo/.github/workflows/python-app.yml@main
     permissions:
       contents: read
       checks: write
